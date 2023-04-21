@@ -7,8 +7,7 @@ import './App.css';
 import Login from "./component/account/Login";
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div style={{margin: 64 }}>
       <Login/>
     </div>
   );
