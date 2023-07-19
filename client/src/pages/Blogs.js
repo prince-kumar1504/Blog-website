@@ -28,7 +28,7 @@ const Blogs = () => {
             description={blog?.description}
             image={blog?.image}
             username={blog?.user?.username}
-            time={blog.createdAt}
+            time={blog?.createdAt?.slice(0,10)}
           />
         ))}
     </div>
